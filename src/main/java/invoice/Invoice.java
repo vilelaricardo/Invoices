@@ -5,9 +5,9 @@ import java.util.Date;
 public class Invoice {
     private Long id;
     private Date date;
-    private double totalValue;
+    private float totalValue;
 
-    public Invoice(Long id, Date date, double totalValue) {
+    public Invoice(Long id, Date date, float totalValue) {
         this.id = id;
         this.date = date;
         this.totalValue = totalValue;
@@ -33,7 +33,7 @@ public class Invoice {
         return totalValue;
     }
 
-    public void setTotalValue(double totalValue) {
+    public void setTotalValue(float totalValue) {
         this.totalValue = totalValue;
     }
 }

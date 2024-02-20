@@ -29,7 +29,7 @@ public class Invoice {
         this.date = date;
     }
 
-    public double getTotalValue() {
+    public float getTotalValue() {
         return totalValue;
     }
 

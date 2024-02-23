@@ -20,8 +20,8 @@ public class ExpenseTest {
         MockitoAnnotations.openMocks(this);
 
         Expense expense = new Expense(invoice);
-        when(expense.getInvoice().getTotalValue()).thenReturn(465.7F);
+        when(expense.getInvoice().getTotalValue()).thenReturn(464.7F);
 
-        Assertions.assertEquals(465.7F,expense.getInvoice().getTotalValue());
+        Assertions.assertEquals(464.7F,expense.getInvoice().getTotalValue());
     }
 }
